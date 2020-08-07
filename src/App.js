@@ -9,16 +9,12 @@ class App extends Component {
     timerIDs: []
   }
 
-
-  //Your code here:
-
-
-
-
-
-
-
-
+  // add your code here
+  componentDidMount()
+  {
+    console.log("component mounted");
+    this.handleAddTimer()
+  }
 
   // No need to modify anything in render or the class methods below
   // Unless, of course, you're curious about how it all works
